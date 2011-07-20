@@ -1,0 +1,12 @@
+Android Task Manager for the Google Tasks API
+
+URL: http://www.cloudspokes.com/challenge_detail.html?contestID=195
+Challenge end date: Thu May 19 03:00:00 GMT 2011
+
+Description
+===========
+<p>Create a task manager with the new Tasks API. Today Google announced the new Google Tasks API at Google I/O (see the <a href="http://googleappsdeveloper.blogspot.com/2011/05/getting-organized-with-tasks-api.html" target="_blank">Google Apps Developer blog for more details</a>). The Google Tasks API provides developers with a powerful set of API endpoints for retrieving and modifying Google Tasks content and metadata. It offers a simple, RESTful interface and supports all basic operations required to query, manage and sync a user’s tasks and task lists. The API uses JSON for data representation and works with multiple authentication mechanisms including OAuth 2.0.</p> <p>First Place: $1000<br> Second Place: $500</p>
+
+Requirements
+============
+<p>Create an Android application that uses the Google Tasks API to manage all of those things that keep us busy throughout the day. The app will use JSON for data representation and OAuth2 for authentication.</p> <p>The only other requirement is that the app provides the functionality to query, manage and sync a user’s tasks and task lists. Creativity on this challenge will win the day.</p>

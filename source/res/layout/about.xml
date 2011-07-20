@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:background="#FFFFFF">
+	<ImageView android:layout_width="wrap_content" 
+	android:layout_height="fill_parent" android:layout_toLeftOf="@+id/Title"
+	android:layout_alignTop="@+id/Title" android:layout_alignBottom="@+id/Version"  
+	android:src="@drawable/icon" android:paddingLeft="2dp"/>
+	<TextView android:layout_width="wrap_content" android:text="@string/app_name"
+		android:layout_alignParentTop="true" android:id="@+id/Title"
+		android:layout_height="wrap_content" android:textSize="30dp"
+		android:layout_centerHorizontal="true" android:paddingTop="20dp"
+		android:textColor="#000000" android:paddingLeft="5dp"
+		android:paddingRight="5dp" />
+	<View android:layout_below="@+id/Title" android:layout_width="wrap_content"
+		android:layout_height="1dp" android:id="@+id/View01"
+		android:background="#000000" android:layout_alignLeft="@+id/Title"
+		android:layout_alignRight="@+id/Title" />
+	<TextView android:layout_width="wrap_content" android:text="Version 1.0"
+		android:id="@+id/Version" android:layout_below="@+id/View01"
+		android:layout_height="wrap_content" android:textSize="12dp"
+		android:layout_alignLeft="@+id/Title" android:layout_alignRight="@+id/Title"
+		android:gravity="center_horizontal" android:textColor="#000000"
+		android:textStyle="bold" />
+	<TextView android:layout_width="wrap_content" android:text="Version 1.0"
+		android:id="@+id/Version" android:layout_below="@+id/View01"
+		android:layout_height="wrap_content" android:textSize="12dp"
+		android:layout_alignLeft="@+id/Title" android:layout_alignRight="@+id/Title"
+		android:gravity="center_horizontal" android:textColor="#000000"
+		android:textStyle="bold" />
+	<TextView android:layout_width="wrap_content" android:text="Author: Prashant Thakkar"
+		android:id="@+id/Author" android:layout_below="@+id/Version"
+		android:layout_height="wrap_content" android:textSize="15dp"		
+		android:textColor="#000000" android:paddingTop="7dp"
+		android:textStyle="bold" android:layout_alignLeft="@+id/Title"/>
+	<TextView android:layout_width="wrap_content" android:text="Email: prashant.pandhi@gmail.com"
+		android:id="@+id/Email" android:layout_below="@+id/Author"
+		android:layout_height="wrap_content" android:textSize="15dp"		
+		android:textColor="#000000"  android:autoLink="email"
+		android:textStyle="bold" android:layout_alignLeft="@+id/Title" android:paddingTop="7dp"/>
+	<TextView android:layout_width="wrap_content" android:text="http://androidtaskmanager.appspot.com"
+		android:id="@+id/Url" android:layout_below="@+id/Email"
+		android:layout_height="wrap_content" android:textSize="15dp"		
+		android:textColor="#000000"  android:autoLink="web"
+		android:layout_alignLeft="@+id/Title" android:paddingTop="7dp"
+		android:paddingBottom="5dp"/>	
+	<TextView android:layout_width="wrap_content" android:text=""
+		android:id="@+id/Description" android:layout_below="@+id/Url"
+		android:layout_height="fill_parent" android:textSize="15dp"		
+		android:textColor="#000000"  
+		android:layout_alignLeft="@+id/Title" android:paddingTop="7dp"
+		android:paddingBottom="10dp"/>	
+		
+</RelativeLayout>

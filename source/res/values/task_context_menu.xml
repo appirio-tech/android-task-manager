@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="task_context_menu">
+		<item>@string/show_details</item>
+		<item>@string/add_subtask</item>
+		<item>@string/delete</item>
+		<item>@string/sms</item>
+		<item>@string/email</item>
+	</string-array>	
+</resources>

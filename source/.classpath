@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry kind="lib" path="F:/galileo-workspace/MyTaskManager/lib/commons-codec-1.3.jar"/>
+	<classpathentry kind="lib" path="F:/galileo-workspace/MyTaskManager/lib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="F:/galileo-workspace/MyTaskManager/lib/google-api-client-1.4.1-beta.jar"/>
+	<classpathentry kind="lib" path="F:/galileo-workspace/MyTaskManager/lib/google-api-client-extensions-1.4.1-beta.jar"/>
+	<classpathentry kind="lib" path="F:/galileo-workspace/MyTaskManager/lib/google-api-client-extensions-android2-1.4.1-beta.jar"/>
+	<classpathentry kind="lib" path="F:/galileo-workspace/MyTaskManager/lib/google-api-client-extensions-android3-1.4.1-beta.jar"/>
+	<classpathentry kind="lib" path="F:/galileo-workspace/MyTaskManager/lib/google-api-client-googleapis-1.4.1-beta.jar"/>
+	<classpathentry kind="lib" path="F:/galileo-workspace/MyTaskManager/lib/google-api-client-googleapis-extensions-1.4.1-beta.jar"/>
+	<classpathentry kind="lib" path="F:/galileo-workspace/MyTaskManager/lib/google-api-client-googleapis-extensions-android2-1.4.1-beta.jar"/>
+	<classpathentry kind="lib" path="F:/galileo-workspace/MyTaskManager/lib/google-api-services-tasks-v1-1.0.0-beta.jar"/>
+	<classpathentry kind="lib" path="F:/galileo-workspace/MyTaskManager/lib/gson-1.6.jar"/>
+	<classpathentry kind="lib" path="F:/galileo-workspace/MyTaskManager/lib/guava-r09.jar"/>
+	<classpathentry kind="lib" path="F:/galileo-workspace/MyTaskManager/lib/httpclient-4.0.3.jar"/>
+	<classpathentry kind="lib" path="F:/galileo-workspace/MyTaskManager/lib/httpcore-4.0.1.jar"/>
+	<classpathentry kind="lib" path="F:/galileo-workspace/MyTaskManager/lib/jackson-core-asl-1.6.7.jar"/>
+	<classpathentry kind="lib" path="F:/galileo-workspace/MyTaskManager/lib/jdo2-api-2.3-eb.jar"/>
+	<classpathentry kind="lib" path="F:/galileo-workspace/MyTaskManager/lib/jsr305-1.3.9.jar"/>
+	<classpathentry kind="lib" path="F:/galileo-workspace/MyTaskManager/lib/junit-4.8.2.jar"/>
+	<classpathentry kind="lib" path="F:/galileo-workspace/MyTaskManager/lib/opengl-api-gl1.1-android-2.1_r1.jar"/>
+	<classpathentry kind="lib" path="F:/galileo-workspace/MyTaskManager/lib/servlet-api-2.5.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

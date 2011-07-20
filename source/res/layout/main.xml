@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView android:layout_width="fill_parent" android:id="@+id/AppTitle"
+		android:layout_height="wrap_content" android:text="@string/app_name"
+		android:background="@drawable/app_title"
+		android:layout_alignParentTop="true" android:textAppearance="@android:style/TextAppearance.Medium" />
+	<!--
+		TextView android:layout_width="fill_parent"
+		android:id="@+id/ViewTitle" android:layout_height="wrap_content"
+		android:text="@string/app_name" android:layout_below="@+id/AppTitle"
+		android:background="@drawable/view_title" android:textColor="#000000"
+		android:textSize="15dp"/
+	-->
+
+	<ListView android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:id="@+id/activities"
+		android:layout_above="@+id/CreateTaskList" android:layout_below="@+id/AppTitle" />
+	<Button android:text="@string/create_new_tasklist" android:id="@+id/CreateTaskList"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true" android:layout_marginBottom="5dp"
+		android:layout_centerHorizontal="true" />
+</RelativeLayout>

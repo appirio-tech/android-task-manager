@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<TextView android:layout_width="fill_parent" android:id="@+id/AppTitle"
+		android:layout_height="wrap_content" android:text="@string/app_name"
+		android:layout_alignParentTop="true" android:ellipsize="end" android:singleLine="true"
+		android:background="@drawable/app_title" android:textAppearance="@android:style/TextAppearance.Medium" />
+	
+	<TextView android:layout_width="fill_parent"
+		android:id="@+id/ShowMessage" android:layout_height="fill_parent"
+		android:text="@string/message_notask" android:layout_below="@+id/AppTitle"		
+		android:textSize="15dp" android:layout_above="@+id/ButtonBar"/>
+		
+	<ListView android:id="@+id/Tasks" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:layout_above="@+id/ButtonBar"
+		android:layout_below="@+id/AppTitle" />
+	<!--
+		Button android:text="Add Task" android:id="@+id/AddTask"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:layout_marginBottom="5dp"
+		android:layout_centerHorizontal="true"/
+	-->
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:id="@+id/ButtonBar" android:layout_height="wrap_content"
+		android:layout_marginBottom="5dp" android:layout_below="@+id/Title"
+		android:layout_alignParentBottom="true" android:background="@drawable/view_title">
+		<Button android:text="@string/add_task" android:id="@+id/AddTask"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_weight="1" />
+		<Button android:text="@string/completed_task" android:id="@+id/CompletedTask"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_weight="1" />
+	</LinearLayout>
+
+</RelativeLayout>

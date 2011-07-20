@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Main!</string>
+    <string name="app_name">My Task Manager</string>
+    <string name="post">Post</string>
+    <string name="delete">Delete</string>
+    <string name="about">About</string>    
+    <string name="loading_tasklist">Loading Tasklist\'s...</string>
+    <string name="loading_task">Loading Tasks...</string>
+    <string name="processing_tasklist">Processing Tasklist</string>
+    <string name="processing_task">Processing Task</string>
+    <string name="add_task">Add Task</string>
+    <string name="add_subtask">Add Sub Task</string>    
+    <string name="show_tasks">Show Tasks</string>
+    <string name="edit">Edit</string>
+    <string name="show_details">Show Details</string>
+    <string name="create_new_tasklist">Create New Tasklist</string>
+    <string name="completed_task">Show Completed Task</string>
+    <string name="remove_completed_tasks">Remove Completed Tasks</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">ok</string>
+    <string name="yes">Yes</string>
+    <string name="sms">SMS</string>
+    <string name="email">Email</string>
+    <string name="no">No</string>
+    <string name="task_details">Task Details</string>
+    <string name="task_title_mandatory">Task Title is mandatory</string>    
+    <string name="tasklist_title_mandatory">Tasklist Title is mandatory</string>
+    <string name="task_api_key">AIzaSyDUYGu5MtVQ-9ZKReCVOIW8NCWOyNJ7_y0</string>
+    <string name="task_oauth2_token">oauth2:https://www.googleapis.com/auth/tasks</string>
+    <string name="options">Options</string>
+    <string name="switch_account">Switch Account</string>
+    <string name="select_account">Select a Google account</string>
+    <string name="hint_tasklist_title">Tasklist Title</string>
+    <string name="hint_due">Due Date</string>
+    <string name="hint_task_title">Task Title</string>
+    <string name="hint_task_notes">Notes</string>
+    <string name="no_account_found">No Google account(s) configured. To add and configure account click on Settings-&gt; Account &amp; Sync.</string>
+    <string name="alert_tasklist_delete">Are you sure you want to delete Tasklist?</string>
+    <string name="alert_task_delete">Are you sure you want to delete Task?</string>
+    <string name="error_processing">Couldn\'t complete the process, server connection exception. Please try after some time.</string>
+    <string name="message_notask">Tasklist currently doesn\'t have any task. Click on &lt;b&gt;Add Task&lt;/b&gt; to add new task</string>
+    <string name="message_about">Submission for &lt;b&gt;Android Task Manager for the Google Tasks API&lt;/b&gt; contest by CloudSpokes. This application integrates and Sync\'s Google Tasks which are available in GMail, Google Calendar and Google Widgets.</string>
+    <string name="title_completed_tasks">Completed Tasks</string>
+    <string name="title_create_tasklist">Create Tasklist</string>
+    <string name="title_edit_tasklist">Edit Tasklist</string>
+    <string name="title_task_details">Task Details</string>
+    <string name="title_add_task">Add Task</string>
+    <string name="title_add_sub_task">Add Sub Task</string>
+</resources>
+

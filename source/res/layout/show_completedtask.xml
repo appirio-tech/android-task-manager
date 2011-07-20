@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<ListView android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:id="@+id/Tasks"
+		android:layout_above="@+id/ButtonBar" />
+	<LinearLayout android:layout_width="fill_parent"
+		android:id="@+id/ButtonBar" android:layout_height="wrap_content"
+		android:layout_marginBottom="5dp" 
+		android:layout_alignParentBottom="true">		
+		<Button android:text="@string/remove_completed_tasks" android:id="@+id/RemoveCompletedTask"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_weight="1" />
+		<Button android:text="@string/cancel" android:id="@+id/Cancel"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_weight="1" />	
+	</LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="tasklist_context_menu">
+		<item>@string/show_tasks</item>
+		<item>@string/edit</item>
+		<item>@string/delete</item>
+	</string-array>	
+</resources>
